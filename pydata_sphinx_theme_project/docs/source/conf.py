@@ -16,6 +16,7 @@ release = 'diamond peak release'
 
 extensions = [
     'sphinx.ext.todo',
+    'myst_parser'
 ]
 
 templates_path = ['_templates']
@@ -32,3 +33,9 @@ html_static_path = ['_static']
 html_css_files = []
 
 html_js_files = []
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
