@@ -136,3 +136,7 @@ cython_debug/
 .sphinx/
 sphinx-build/
 sphinx-report/
+
+# ignore the development clone and the build whl of the theme
+pydata-sphinx-theme*
+*.whl
