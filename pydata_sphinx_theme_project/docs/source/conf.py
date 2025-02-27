@@ -39,3 +39,10 @@ source_suffix = {
     '.txt': 'markdown',
     '.md': 'markdown',
 }
+
+myst_enable_extensions = [
+    "colon_fence",
+    "deflist",
+    "fieldlist"
+    # other useful extensions: "deflist", "fieldlist", etc.
+]
